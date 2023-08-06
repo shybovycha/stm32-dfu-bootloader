@@ -4,6 +4,7 @@ run-name: Build FW images for several flavors
 on:
   push:
     branches: ["master"]
+  workflow_dispatch:
 
 jobs:
   bootloader-build:
