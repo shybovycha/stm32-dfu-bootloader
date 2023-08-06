@@ -73,7 +73,7 @@ are present, the bootloader will point VTOR to the user app and boot it.
 Config flags
 ------------
 
-* ENABLE_DFU_UPLOAD: Enables DFU upload commands, this is, enables reading
+* `ENABLE_DFU_UPLOAD`: Enables DFU upload commands, this is, enables reading
   flash memory (only within the user app boundaries) via DFU.
 * ENABLE_SAFEWRITE: Ensures the user flash is completely erased before any
   DFU write/erase command is executed, to ensure no payloads are written
